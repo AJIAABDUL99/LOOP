@@ -25,14 +25,16 @@ if(i%2== 1){
 }
 console.log("Loop with continue:" +i);
 }
+
 for (i = 0; i < 3; i++){
+    
     for (let j= 0; j < 3; j++){
          
         if (j===1){
-            continue;// skip the rest of the code in the
+            continue;
         }
           
-          console.log('i=${i}, j=${j}');
+          console.log(`i=${i}, j=${j}`);
         }
 
     }
